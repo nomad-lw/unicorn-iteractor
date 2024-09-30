@@ -1,0 +1,11 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.so
+
+# Poetry-specific
+.venv/
+.poetry/
+
+# Environments
+.env

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "unicorn-interactor"
+version = "0.1.0"
+description = "A Proof of Concept for interacting with the Cosmos based Unicorn Blockchain"
+authors = ["sambot <0xsambot@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+cosmpy = "^0.9.2"
+
+[virtualenvs]
+in-project = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pyright]
+diagnosticMode = "workspace"
+typeCheckingMode = "strict"
+venvPath = "."
+venv = ".venv"
+pythonPath = ".venv/bin/python"
