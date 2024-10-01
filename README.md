@@ -49,4 +49,4 @@ Although this project is just a simple POC and I do not intend to maintain/devel
 No guarantees are made about the quality of the code.
 
 ## License
-This project is licensed under the GPL License.
+This project is licensed under the MIT License.
